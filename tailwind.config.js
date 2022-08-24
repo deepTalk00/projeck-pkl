@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors :{
         'greentea' : '#319177'
+      },
+      blur: {
+        xs: '2px',
       }
     },
   },
