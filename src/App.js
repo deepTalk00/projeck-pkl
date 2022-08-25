@@ -1,7 +1,9 @@
 
 import './App.css';
 import HiroImage from './component/HiroImage';
+import Layanan from './component/Layanan';
 import Navbar from './component/Navbar';
+
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <HiroImage/>
+      <Layanan />
     </div>
   );
 }

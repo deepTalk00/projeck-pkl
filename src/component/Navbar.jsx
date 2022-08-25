@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
      return (
-       <div className="Navbar bg-greentea w-full flex items-center p-8 justify-between ">
+       <div className="Navbar bg-greentea w-[100%] flex items-center p-8 justify-between ">
          <div className='bg-slate-400'>
             <secsion>Logo</secsion>
           </div>
@@ -16,9 +16,9 @@ function Navbar() {
           </ul>
          </section>
           <secsion className="hamburger-menu w-20 flex-col space-y-1 translate-x-8 ">
-            <div className='w-10 h-1.5 rounded bg-white'></div>
-            <div className='w-10 h-1.5 rounded bg-white'></div>
-            <div className='w-10 h-1.5 rounded bg-white'></div>
+            <div className='w-8 h-1.5 rounded bg-white'></div>
+            <div className='w-8 h-1.5 rounded bg-white'></div>
+            <div className='w-8 h-1.5 rounded bg-white'></div>
           </secsion>
        </div>
      );
