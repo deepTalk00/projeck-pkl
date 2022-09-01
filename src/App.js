@@ -1,20 +1,22 @@
-import React from 'react';
 
 import './App.css';
-import HiroImage from './component/HiroImage';
-import IdeaApp from './component/IdeaApp';
-import Layanan from './component/Layanan';
-import Navbar from './component/Navbar';
 
+import { Routes, Route } from 'react-router-dom';
+import Home from './page/Home';
+import Layanan from './page/Layanan';
+import Profil from './page/Profil';
+import Navbar from './component/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <HiroImage/>
-      <Layanan  />
-      <IdeaApp />
+      <Navbar className=" fixed top-0"/>
+      <Routes>
+       <Route path="/"element ={<Home/>} />
+       <Route path="/profil"element ={<Profil/>} />
+       <Route path="/layanan"element ={<Layanan/>} />
+      </Routes>
     </div>
   );
 }

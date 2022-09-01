@@ -4,10 +4,95 @@
 @tailwind components;
 @tailwind utilities;
 
-.container_hiro{
-     width: 100vw;
-     height: 70vh;
+
+html{
+     scroll-behavior: smooth;
 }
+body{
+     font-family: 'Open-Sans',sans-serif;
+}
+
 .header_hiro{
-     font-family: 'ROboto',sans-serif;
+     font-family: sans-serif;
+     font-weight: 800;
+     width:6em;
+}
+
+#navigasi{
+     @apply lg:relative lg:translate-x-[0em] lg:h-[2em] lg:w-[50%] lg:flex-row  lg:items-center;
+}
+#list-navigasi{
+     transform: translateX(0%);
+     display: flex;
+     height: max-content;
+     align-items: flex-start;
+     z-index: 999;
+
+}
+.sideBar-active{
+     @apply bg-greentea top-[6em] left-0 sm:bg-slate-700 lg:top-0 lg:items-center lg:pt-0 lg:bg-transparent ;
+     position: fixed;
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     z-index: 90;
+     padding: 1em;
+     /* padding-top:6em ; */
+     transform: translateX(0em);
+     transition: all 0.6s;
+}
+.sideBar-hide{
+     @apply bg-greentea top-[6em] left-0 lg:top-0  lg:items-center lg:pt-0 lg:bg-transparent;
+     position: fixed;
+     display: flex;
+     width: 100vw;
+     height: 100vh;
+     z-index: 90;
+     padding: 1em;
+     transform: translateX(-100%);
+     /* padding-top:6em ; */
+     transition: all 0.6s;
+}
+
+.hamburger-menu > div{
+     @apply w-7 h-1.5 rounded bg-white ;
+}
+
+.rotate-one{
+     @apply -rotate-45 origin-top-left transition duration-300 bg-green-400;
+}
+.rotate-two{
+     @apply rotate-45 origin-bottom-left transition duration-300  bg-red-500;
+} 
+.hideNav{
+     @apply scale-0 bg-red-500 transition duration-300;
+}
+
+
+
+.nav-fixed{
+     @apply fixed z-[999]  w-full h-24 flex  justify-between px-10 items-center bg-greentea shadow-md transition duration-300 ;
+}
+
+.no-fixed{
+    @apply z-[999] w-full h-24 ring-1 ring-[#335149]  lg:relative flex justify-between bg-[#335149] px-10 items-center shadow-md transition duration-300;
+}
+
+.images{
+     display: grid;
+     grid-template-areas: "full full" 
+                          "setengah setengah-2"
+     ;
+     gap:1em;
+}
+.images-one{
+     display: grid;
+     grid-area: full;
+}
+.images-two{display: grid;
+     grid-area: setengah;
+}
+.images-three{
+     display: grid;
+     grid-area: setengah-2;
 }
