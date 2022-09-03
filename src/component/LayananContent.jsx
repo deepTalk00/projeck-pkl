@@ -1,14 +1,14 @@
 import React from 'react';
 import imageProsedur from "../assets/6.jpeg"
+import formMagang from '../assets/Form Penelitian Online_rev 1 Magang_KKN_PKL_Final.docx'
+import formPenelitian from '../assets/Form Penelitian Online_rev 1 Penelitian_Observasi_Final.docx'
 
 function LayananContent() {
      return ( 
           <>
           <div>
-               <div>
-                    <img src={imageProsedur} alt="prosedur dalam mengurus surat penelitian" className='shadow-lg focus:scale-150 transition' />
-               </div>
-               <section className="px-10 space-y-5">
+               <section className="px-10 space-y-5 lg:px-[10em] xl:px-52 2xl:px-[22em] ">
+                    <img src={imageProsedur} alt="prosedur dalam mengurus surat penelitian" className='w-full shadow-lg focus:scale-150 transition ' />
                     <h2 className="text-2xl py-5">Layanan</h2>
                     <h2 className="font-italic">PERIZINAN REKOMENDASI PENELITIAN “PERSYARATAN PERIZINAN REKOMENDASI PENELITIAN DI KOTA BINJAI” </h2>
                     <section>Dasar Hukum: 
@@ -80,18 +80,14 @@ function LayananContent() {
                               </ul>
                          </section>
                     </section>
-               </section>
-               <section className="p-10">
+               <section className="p-5">
                     <p>Formulir dan Persyaratan dapat di unduh di link bawah ini: </p>
                     <ul className='list-decimal ml-10 space-y-1'>
-                         <li><a href="3">Formulir Permohonan Rekomendasi Penelitian/Observasi/Skripsi/Tesis/Desertasi</a></li>
-                         <li><a href="3">Formulir Permohonan Rekomendasi Magang/PKL/PKN/KKN</a></li>
+                         <li><a href={formMagang} className="underline decoration-greentea decoration-2" download>Download Formulir Permohonan Rekomendasi Penelitian/Observasi/Skripsi/Tesis/Desertasi</a></li>
+                         <li><a href={formPenelitian} className="underline  decoration-greentea decoration-2">Download Formulir Permohonan Rekomendasi Magang/PKL/PKN/KKN</a></li>
                     </ul>
-                    
-                    
-                    
-               
-         </section>
+                   </section>
+               </section>
           </div>
           </>
       );

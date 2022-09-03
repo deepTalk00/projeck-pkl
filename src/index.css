@@ -15,11 +15,11 @@ body{
 .header_hiro{
      font-family: sans-serif;
      font-weight: 800;
-     width:6em;
+     width:8em;
 }
 
 #navigasi{
-     @apply lg:relative lg:translate-x-[0em] lg:h-[2em] lg:w-[50%] lg:flex-row  lg:items-center;
+     @apply lg:relative lg:translate-x-[0em] lg:h-[2em] lg:w-[50%] lg:flex-row  lg:items-center 2xl:w-[40%];
 }
 #list-navigasi{
      transform: translateX(0%);
@@ -30,7 +30,7 @@ body{
 
 }
 .sideBar-active{
-     @apply bg-greentea top-[6em] left-0 sm:bg-slate-700 lg:top-0 lg:items-center lg:pt-0 lg:bg-transparent ;
+     @apply bg-greentea top-[6em] left-0 lg:top-0 lg:items-center lg:pt-0 lg:bg-transparent ;
      position: fixed;
      display: flex;
      width: 100vw;
@@ -55,7 +55,7 @@ body{
 }
 
 .hamburger-menu > div{
-     @apply w-7 h-1.5 rounded bg-white ;
+     @apply w-7 h-1.5 rounded bg-white translate-x-10 ;
 }
 
 .rotate-one{

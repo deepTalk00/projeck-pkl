@@ -35,11 +35,11 @@ function Navbar() {
             <div className={clickNav ? "rotate-one":"no-rotate"}></div>
           </section>
             <nav className={clickNav ? 'sideBar-active' : 'sideBar-hide'} id="navigasi">
-              <ul className='space-y-6 flex flex-col items-start lg:flex-row  text-xl ml-6 w-screen lg:w-full h-screen z-[99]  text-white lg:relative lg:justify-evenly lg:space-y-0 lg:space-x-5' id="list-navigasi" >
-                <li><Link to="/"  onClick={showSidebar}>HOME</Link></li>
-                <li><Link to="/profil"  onClick={showSidebar}>PROFIL</Link></li>
-                <li><Link to="/layanan" href="#layanan"  onClick={showSidebar}>LAYANAN</Link></li>
-                <li><a href="#kontak" onClick={showSidebar}>KONTAK</a></li>
+              <ul className='space-y-6 flex flex-col items-start lg:flex-row  text-xl ml-6 w-screen lg:w-full h-screen z-[99]  text-white lg:relative lg:justify-evenly lg:space-y-0 lg:space-x-5 text-[1.1rem]' id="list-navigasi" >
+                <li><Link to="/" className='font-semibold hover:text-slate-200' onClick={showSidebar}>HOME</Link></li>
+                <li><Link to="/profil"  className='font-semibold hover:text-slate-200'  onClick={showSidebar}>PROFIL</Link></li>
+                <li><Link to="/layanan"  className='font-semibold hover:text-slate-200'  href="#layanan"  onClick={showSidebar}>LAYANAN</Link></li>
+                <li><a href="#kontak"  className='font-semibold hover:text-slate-200'  onClick={showSidebar}>KONTAK</a></li>
               </ul>
             </nav>
        </div>

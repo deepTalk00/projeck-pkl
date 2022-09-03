@@ -9,8 +9,8 @@ function Footer() {
      return ( 
           <>
           <div className='bg-[#335149] text-white '>
-               <div className="w-full h-[35em] flex justify-around flex-col p-5 sm:px-10 lg:flex-row lg:h-[max-content] lg:py-12">
-                    <section className="space-y-6 md:mx-1 lg:w-[40%]">
+               <div className="w-full h-[35em] flex justify-around flex-col p-5 sm:px-10 lg:flex-row lg:h-[max-content] lg:py-12 2xl:px-[18em]">
+                    <section className="space-y-6 md:w-[70%] lg:w-[40%] ">
                          <h2 className='text-xl '>Bakesbangpol Kota Binjai</h2>
                          <p>Badan Kesatuan Bangsa dan Politik mempunyai tugas pokok membantu walikota  dalam menyelenggaraan pemerintahan daerah dibidang kesatuan bangsa dan politik.</p>
                     </section>
@@ -27,7 +27,7 @@ function Footer() {
                     <ul className='space-y-2 w-[18em]'>
                               <li className='w-full flex justify-between items-center'>
                                    <FaInstagram size={40}/> 
-                                   <span className='-translate-x-[5.5em]'>kesabangpol_Binjai</span> 
+                                   <a href="https://instagram.com/kesbangpol_kota_binjai?igshid=YmMyMTA2M2Y=" className='-translate-x-[5.5em]'>kesabangpol_Binjai</a> 
                               </li>
                               <li className='flex w-full items-center justify-between'>
                                    <FaFacebookSquare size={40}/> 

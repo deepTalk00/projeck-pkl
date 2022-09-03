@@ -1,7 +1,7 @@
 function Visimisi () {
      return ( 
           <>
-               <section className="w-full">
+               <section className="w-ful xl:mx-24 2xl:mx-48">
                     <h2 className="text-slate-800 text-center py-8 capitalize text-2xl">visi dan misi</h2>
                     <div className="space-y-5">
                          <div className="w-[80%]  mx-auto p-5 bg-[#335149] text-white rounded-md space-y-3">

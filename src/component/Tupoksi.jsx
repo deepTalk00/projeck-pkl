@@ -1,7 +1,7 @@
 function Tupoksi() {
      return ( 
           <>
-                <section className=" w-full p-5 space-y-5 px-10 py-5 ">
+                <section className=" w-full p-5 space-y-5 px-10 py-5 sm:px-20  lg:px-32 xl:px-52 xl:py-10 2xl:px-[22em]">
                     <h2 className="text-xl font-semibold">Tugas pokok dan fungsi</h2>
                     <p>Badan Kesatuan Bangsa dan Politik merupakan unsur pendukung tugas Walikota yang dipimpin oleh seorang Kepala Badan berkedudukan di bawah dan bertanggung jawab kepada Walikota melalui Sekretaris Daerah.
                     Kepala Badan Kesatuan Bangsa dan Politik mempunyai tugas melaksanakan penyusunan dan pelaksanakan kebijakan daerah di bidang pembinaan kesatuan bangsa dan politik.
@@ -12,7 +12,6 @@ function Tupoksi() {
                     melaksanakan hubungan kerjasama antar lembaga dalam rangka membina dan memelihara stabilitas politik di daerah.
                     merumuskan kebijakan dalam pelaksanaan, penyelamatan dan rehabilitasi terhadap berbagai ancaman atau bencana.
                     melakukan perumusan, perencanaan kebijakan teknis pembangunan dan pengelolaan, pembinaan umum, pemberian bimbingan serta perizinan sesuai dengan kebijaksanaan teknis yang telah ditetapkan oleh walikota.
-                 
                     </p>
                     <p>
                     melakukan perumusan, perencanaan, pengawasan dibidang ketahanan seni dan budaya, agama dan kepercayaan.
