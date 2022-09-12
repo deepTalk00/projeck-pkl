@@ -22,7 +22,7 @@ function Footer() {
                               <li>Alamat</li>
                          </ul>
                     </div>
-                    <div className='space-y-4' id="kontak">
+                    <div className='space-y-4' id="kontak" >
                          <h2 className='text-xl'>Kontak kami</h2>
                     <ul className='space-y-2 w-[18em]'>
                               <li className='w-full flex justify-between items-center'>
